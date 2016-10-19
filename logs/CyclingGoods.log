@@ -1,0 +1,10 @@
+22:21:42.478 INFO   - запись добавлена
+22:21:42.511 INFO   - запись удалена
+22:21:42.517 INFO   - Product [name=Specialized S-Works Epic Carbon Di2 2016, price=1000, category=cycles]
+22:21:42.518 INFO   - Product [name=Specialized S-Works Amira SL4 2016, price=2000, category=cycles]
+22:21:42.518 INFO   - Product [name=Specialized P Street 1 2015, price=1500, category=cycles]
+22:21:42.545 INFO   - запись id = 10 обновлена
+22:21:42.552 INFO   - ReportLine [productCategory=accessories, productAmount=2, minPrice=200, maxPrice=500]
+22:21:42.552 INFO   - ReportLine [productCategory=cycles, productAmount=3, minPrice=1000, maxPrice=2000]
+22:21:42.552 INFO   - ReportLine [productCategory=equipment, productAmount=5, minPrice=100, maxPrice=777]
+22:21:42.569 INFO   - ReportLine [productCategory=parts, productAmount=3, minPrice=650, maxPrice=800]
