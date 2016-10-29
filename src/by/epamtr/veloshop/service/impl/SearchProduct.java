@@ -11,7 +11,7 @@ import by.epamtr.veloshop.service.SearchProductService;
 import by.epamtr.veloshop.service.exception.ServiceException;
 
 public class SearchProduct implements SearchProductService {
-	private final static String invalidParameters = "Invalid parameters";
+	private final static String invalidParameters = "Invalid parameters";// в логах и при выбросе исключений сообщений не именуют)
 	private final static String failedObtainingList = "Failed obtaining product list";
 	private final static String failedGeneratingaReport = "Failed generating a report";
 
