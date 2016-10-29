@@ -1,6 +1,6 @@
 package by.epamtr.veloshop.bean.entity;
 
-public class Product {
+public class Product {// правильно размещай методы в классе
 	
 
 
