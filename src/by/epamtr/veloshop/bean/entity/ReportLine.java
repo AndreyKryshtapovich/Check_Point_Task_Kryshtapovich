@@ -1,6 +1,6 @@
 package by.epamtr.veloshop.bean.entity;
 
-public class ReportLine {
+public class ReportLine {// это bean
 	private String productCategory;
 	private int productAmount;
 	private int minPrice;
