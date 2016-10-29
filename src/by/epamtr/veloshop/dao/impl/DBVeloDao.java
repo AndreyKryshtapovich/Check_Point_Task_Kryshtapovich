@@ -48,7 +48,7 @@ public class DBVeloDao implements VeloDao {
 
 		try {
 
-			Class.forName("org.gjt.mm.mysql.Driver");
+			Class.forName("org.gjt.mm.mysql.Driver");// ну и зачем мы при вызове каждого метода грузим драйвер
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/cycling_products?useSSL=false", "root",
 					"3946833Andrey");
 			ps = con.prepareStatement(INSERT_INTO_PRODUCT);
@@ -64,7 +64,7 @@ public class DBVeloDao implements VeloDao {
 		} finally {
 			try {
 				if (ps != null) {
-					ps.close();
+					ps.close();// если этот оператор сгенерирует исключение, соединенеие не закроется вовсе
 				}
 				if (con != null) {
 					con.close();
